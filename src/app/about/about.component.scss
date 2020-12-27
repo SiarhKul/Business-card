@@ -1,0 +1,21 @@
+/** @format */
+
+.text {
+  color: red;
+  &__item {
+    list-style-type: none;
+    span {
+      font-size: 2rem;
+    }
+    li {
+      font-size: 1.25rem;
+    }
+  }
+}
+.list__work,
+.list__tech {
+  li {
+    color: #fff;
+    list-style: disc;
+  }
+}

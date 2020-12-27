@@ -1,0 +1,23 @@
+/** @format */
+.headline {
+  width: 60%;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 3px;
+
+  &__link {
+    margin-right: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+}

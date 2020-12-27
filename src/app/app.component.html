@@ -1,0 +1,32 @@
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="row">
+        <div class="logo">
+            <div class="logo__img"><img src="/assets/img/logo.png" alt="logo"></div>
+            <div class="logo__brand">
+                <div class="logo__name">Jon Doe</div>
+                <div class="logo__specialization">Front-end web developer</div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class=" menu__list"><a routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        [routerLink]="['/']">Home</a> </li>
+                <li class="menu__list"><a routerLinkActive="active" [routerLink]="['/about']">About me</a> </li>
+                <li class="menu__list"><a routerLinkActive="active" [routerLink]="[ '/projects']">Projects</a></li>
+                <li class="menu__list"><a routerLinkActive="active" [routerLink]="[ '/contacts']">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- HEADING -->
+    <router-outlet></router-outlet>
+    <!-- BUTTON CONTACT WITH ME BY EMAIL -->
+    <button class="btn-c">
+        <i class="fas fa-envelope"></i>
+        <a href="https://mail.google.com/mail/" class="link__text">Contact me</a>
+    </button>
+</div>
